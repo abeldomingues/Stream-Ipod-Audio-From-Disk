@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6407FEF91B10CCB60019D39D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407FEF81B10CCB60019D39D /* main.m */; };
+		6407FEFC1B10CCB60019D39D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407FEFB1B10CCB60019D39D /* AppDelegate.m */; };
+		6407FEFF1B10CCB60019D39D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407FEFE1B10CCB60019D39D /* ViewController.m */; };
+		6407FF021B10CCB60019D39D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6407FF001B10CCB60019D39D /* Main.storyboard */; };
+		6407FF041B10CCB60019D39D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6407FF031B10CCB60019D39D /* Images.xcassets */; };
+		6407FF071B10CCB60019D39D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6407FF051B10CCB60019D39D /* LaunchScreen.xib */; };
+		6407FF131B10CCB60019D39D /* StreamIpodAudioFromDiskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407FF121B10CCB60019D39D /* StreamIpodAudioFromDiskTests.m */; };
+		6407FF1F1B10CCDD0019D39D /* Output.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407FF1D1B10CCDD0019D39D /* Output.m */; };
+		6407FF201B10CCDD0019D39D /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6407FF1E1B10CCDD0019D39D /* Utilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6407FF0D1B10CCB60019D39D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6407FEEB1B10CCB60019D39D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6407FEF21B10CCB60019D39D;
+			remoteInfo = StreamIpodAudioFromDisk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6407FEF31B10CCB60019D39D /* StreamIpodAudioFromDisk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamIpodAudioFromDisk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6407FEF71B10CCB60019D39D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6407FEF81B10CCB60019D39D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6407FEFA1B10CCB60019D39D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6407FEFB1B10CCB60019D39D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6407FEFD1B10CCB60019D39D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6407FEFE1B10CCB60019D39D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6407FF011B10CCB60019D39D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6407FF031B10CCB60019D39D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6407FF061B10CCB60019D39D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6407FF0C1B10CCB60019D39D /* StreamIpodAudioFromDiskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamIpodAudioFromDiskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6407FF111B10CCB60019D39D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6407FF121B10CCB60019D39D /* StreamIpodAudioFromDiskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StreamIpodAudioFromDiskTests.m; sourceTree = "<group>"; };
+		6407FF1C1B10CCDD0019D39D /* Output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Output.h; sourceTree = "<group>"; };
+		6407FF1D1B10CCDD0019D39D /* Output.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Output.m; sourceTree = "<group>"; };
+		6407FF1E1B10CCDD0019D39D /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6407FEF01B10CCB60019D39D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6407FF091B10CCB60019D39D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6407FEEA1B10CCB60019D39D = {
+			isa = PBXGroup;
+			children = (
+				6407FEF51B10CCB60019D39D /* StreamIpodAudioFromDisk */,
+				6407FF0F1B10CCB60019D39D /* StreamIpodAudioFromDiskTests */,
+				6407FEF41B10CCB60019D39D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6407FEF41B10CCB60019D39D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6407FEF31B10CCB60019D39D /* StreamIpodAudioFromDisk.app */,
+				6407FF0C1B10CCB60019D39D /* StreamIpodAudioFromDiskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6407FEF51B10CCB60019D39D /* StreamIpodAudioFromDisk */ = {
+			isa = PBXGroup;
+			children = (
+				6407FEFA1B10CCB60019D39D /* AppDelegate.h */,
+				6407FEFB1B10CCB60019D39D /* AppDelegate.m */,
+				6407FEFD1B10CCB60019D39D /* ViewController.h */,
+				6407FEFE1B10CCB60019D39D /* ViewController.m */,
+				6407FF1C1B10CCDD0019D39D /* Output.h */,
+				6407FF1D1B10CCDD0019D39D /* Output.m */,
+				6407FF1E1B10CCDD0019D39D /* Utilities.m */,
+				6407FF001B10CCB60019D39D /* Main.storyboard */,
+				6407FF031B10CCB60019D39D /* Images.xcassets */,
+				6407FF051B10CCB60019D39D /* LaunchScreen.xib */,
+				6407FEF61B10CCB60019D39D /* Supporting Files */,
+			);
+			path = StreamIpodAudioFromDisk;
+			sourceTree = "<group>";
+		};
+		6407FEF61B10CCB60019D39D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6407FEF71B10CCB60019D39D /* Info.plist */,
+				6407FEF81B10CCB60019D39D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6407FF0F1B10CCB60019D39D /* StreamIpodAudioFromDiskTests */ = {
+			isa = PBXGroup;
+			children = (
+				6407FF121B10CCB60019D39D /* StreamIpodAudioFromDiskTests.m */,
+				6407FF101B10CCB60019D39D /* Supporting Files */,
+			);
+			path = StreamIpodAudioFromDiskTests;
+			sourceTree = "<group>";
+		};
+		6407FF101B10CCB60019D39D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6407FF111B10CCB60019D39D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6407FEF21B10CCB60019D39D /* StreamIpodAudioFromDisk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6407FF161B10CCB60019D39D /* Build configuration list for PBXNativeTarget "StreamIpodAudioFromDisk" */;
+			buildPhases = (
+				6407FEEF1B10CCB60019D39D /* Sources */,
+				6407FEF01B10CCB60019D39D /* Frameworks */,
+				6407FEF11B10CCB60019D39D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StreamIpodAudioFromDisk;
+			productName = StreamIpodAudioFromDisk;
+			productReference = 6407FEF31B10CCB60019D39D /* StreamIpodAudioFromDisk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6407FF0B1B10CCB60019D39D /* StreamIpodAudioFromDiskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6407FF191B10CCB60019D39D /* Build configuration list for PBXNativeTarget "StreamIpodAudioFromDiskTests" */;
+			buildPhases = (
+				6407FF081B10CCB60019D39D /* Sources */,
+				6407FF091B10CCB60019D39D /* Frameworks */,
+				6407FF0A1B10CCB60019D39D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6407FF0E1B10CCB60019D39D /* PBXTargetDependency */,
+			);
+			name = StreamIpodAudioFromDiskTests;
+			productName = StreamIpodAudioFromDiskTests;
+			productReference = 6407FF0C1B10CCB60019D39D /* StreamIpodAudioFromDiskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6407FEEB1B10CCB60019D39D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Abel Domingues";
+				TargetAttributes = {
+					6407FEF21B10CCB60019D39D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					6407FF0B1B10CCB60019D39D = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 6407FEF21B10CCB60019D39D;
+					};
+				};
+			};
+			buildConfigurationList = 6407FEEE1B10CCB60019D39D /* Build configuration list for PBXProject "StreamIpodAudioFromDisk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6407FEEA1B10CCB60019D39D;
+			productRefGroup = 6407FEF41B10CCB60019D39D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6407FEF21B10CCB60019D39D /* StreamIpodAudioFromDisk */,
+				6407FF0B1B10CCB60019D39D /* StreamIpodAudioFromDiskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6407FEF11B10CCB60019D39D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6407FF021B10CCB60019D39D /* Main.storyboard in Resources */,
+				6407FF071B10CCB60019D39D /* LaunchScreen.xib in Resources */,
+				6407FF041B10CCB60019D39D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6407FF0A1B10CCB60019D39D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6407FEEF1B10CCB60019D39D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6407FF1F1B10CCDD0019D39D /* Output.m in Sources */,
+				6407FEFF1B10CCB60019D39D /* ViewController.m in Sources */,
+				6407FEFC1B10CCB60019D39D /* AppDelegate.m in Sources */,
+				6407FEF91B10CCB60019D39D /* main.m in Sources */,
+				6407FF201B10CCDD0019D39D /* Utilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6407FF081B10CCB60019D39D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6407FF131B10CCB60019D39D /* StreamIpodAudioFromDiskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6407FF0E1B10CCB60019D39D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6407FEF21B10CCB60019D39D /* StreamIpodAudioFromDisk */;
+			targetProxy = 6407FF0D1B10CCB60019D39D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6407FF001B10CCB60019D39D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6407FF011B10CCB60019D39D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6407FF051B10CCB60019D39D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6407FF061B10CCB60019D39D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6407FF141B10CCB60019D39D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6407FF151B10CCB60019D39D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6407FF171B10CCB60019D39D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StreamIpodAudioFromDisk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6407FF181B10CCB60019D39D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StreamIpodAudioFromDisk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6407FF1A1B10CCB60019D39D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StreamIpodAudioFromDiskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreamIpodAudioFromDisk.app/StreamIpodAudioFromDisk";
+			};
+			name = Debug;
+		};
+		6407FF1B1B10CCB60019D39D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StreamIpodAudioFromDiskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreamIpodAudioFromDisk.app/StreamIpodAudioFromDisk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6407FEEE1B10CCB60019D39D /* Build configuration list for PBXProject "StreamIpodAudioFromDisk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6407FF141B10CCB60019D39D /* Debug */,
+				6407FF151B10CCB60019D39D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6407FF161B10CCB60019D39D /* Build configuration list for PBXNativeTarget "StreamIpodAudioFromDisk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6407FF171B10CCB60019D39D /* Debug */,
+				6407FF181B10CCB60019D39D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6407FF191B10CCB60019D39D /* Build configuration list for PBXNativeTarget "StreamIpodAudioFromDiskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6407FF1A1B10CCB60019D39D /* Debug */,
+				6407FF1B1B10CCB60019D39D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6407FEEB1B10CCB60019D39D /* Project object */;
+}
